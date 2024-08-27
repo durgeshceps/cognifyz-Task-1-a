@@ -1,0 +1,103 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #D4634F;
+}
+
+.navbar{
+    background-color:  #CA9197;
+    border-radius: 30px;
+}
+.navbar ul {
+    overflow: auto;
+}
+.navbar li{
+ float: right;
+list-style:none;
+margin: 13px 20px;
+padding-top: 3px;
+}
+.navbar li a {
+    padding: 3px 3px  ;
+    text-decoration: none;
+    color: white;
+    margin: 1px 2px;
+}
+
+.navbar li a:hover{
+    color: #0E0906;
+}
+
+.search {
+    float: left;
+    color: white;
+    padding: 12px 75px;
+    margin-left: -30px;
+}
+
+.navbar input {
+ border: 2px solid rgb(25, 38, 30);
+ border-radius: 15px ;
+ padding: 3px 17px;
+ width: 129px;
+}
+
+
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #C85D46;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    width: 300px ;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #050100;
+}
